@@ -1,0 +1,64 @@
+{
+  "outputs": [
+    {
+      "target": "white",
+      "weight": 4,
+      "id": "minecraft:nether_star"
+    },
+    {
+      "target": "yellow",
+      "weight": 24,
+      "id": "minecraft:sand:1"
+    },
+    {
+      "target": "green",
+      "weight": 10,
+      "id": "minecraft:mossy_cobblestone"
+    },
+    {
+      "target": "purple",
+      "weight": 9,
+      "id": "minecraft:obsidian"
+    },
+    {
+      "target": "silver",
+      "weight": 12,
+      "id": "minecraft:clay"
+    },
+    {
+      "target": "brown",
+      "weight": 16,
+      "id": "minecraft:soul_sand"
+    },
+    {
+      "target": "",
+      "weight": 8,
+      "id": "minecraft:mycelium"
+    },
+    {
+      "target": "",
+      "weight": 13,
+      "id": "minecraft:end_stone"
+    },
+    {
+      "target": "orange",
+      "weight": 12,
+      "id": "minecraft:hardened_clay"
+    },
+    {
+      "target": "3",
+      "weight": 28,
+      "id": "minecraft:sponge"
+    },
+    {
+      "target": "brown",
+      "weight": 20,
+      "id": "chisel:brownstone"
+    },
+    {
+      "target": "white",
+      "weight": 8,
+      "id": "environmentaltech:mica"
+    }
+  ]
+}

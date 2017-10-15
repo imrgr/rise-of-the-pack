@@ -1,0 +1,236 @@
+{
+  "entries": [
+    {
+      "item": "OD|ingotDraconiumAwakened",
+      "emc": 2949120
+    },
+    {
+      "item": "OD|gemQuartzBlack",
+      "emc": 256
+    },
+	{
+	  "item": "OD|ingotTerrasteel",
+	  "emc": 1474560
+	},
+	{
+	  "item": "OD|dustIron",
+	  "emc": 256
+	},
+	{
+	  "item": "OD|dustGold",
+	  "emc": 2048
+	},
+	{
+	  "item": "OD|ingotManasteel",
+	  "emc": 356
+	},
+	{
+	  "item": "OD|dustCopper",
+	  "emc": 128
+	},
+	{
+	  "item": "OD|dustLead",
+	  "emc": 512
+	},
+	{
+	  "item": "OD|dustSilver",
+	  "emc": 512
+	},
+	{
+	  "item": "OD|dustAluminum",
+	  "emc": 128
+	},
+	{
+	  "item": "OD|dustBronze",
+	  "emc": 160
+	},
+	{
+	  "item": "OD|dustElectrum",
+	  "emc": 1280
+	},
+	{
+	  "item": "OD|dustNickel",
+	  "emc": 1024
+	},
+	{
+	  "item": "OD|dustTin",
+	  "emc": 256
+	},
+	{
+	  "item": "OD|dustUranium",
+	  "emc": 4096
+	},
+	{
+	  "item": "OD|ingotConstantan",
+	  "emc": 1152
+	},
+	{
+	  "item": "OD|dustConstantan",
+	  "emc": 1152
+	},
+	{
+	  "item": "OD|fuelCoke",
+	  "emc": 128
+	},
+	{
+	  "item": "OD|ingotSteel",
+	  "emc": 1024
+	},
+	{
+	  "item": "OD|dustSteel",
+	  "emc": 1024
+	},
+	{
+	  "item": "OD|dustDiamond",
+	  "emc": 8192
+	},
+	{
+	  "item": "OD|dustEmerald",
+	  "emc": 16384
+	},
+	{
+	  "item": "OD|dustObsidian",
+	  "emc": 16
+	},
+	{
+	  "item": "OD|dustRefinedObsidian",
+	  "emc": 8208
+	},
+	{
+	  "item": "OD|ingotRefinedObsidian",
+	  "emc": 8720
+	},
+	{
+	  "item": "OD|ingotRefinedGlowstone",
+	  "emc": 896
+	},
+	{
+	  "item": "OD|dustPlatinum",
+	  "emc": 4096
+	},
+	{
+	  "item": "OD|ingotIridium",
+	  "emc": 4096
+	},
+	{
+	  "item": "OD|dustIridium",
+	  "emc": 4096
+	},
+	{
+	  "item": "OD|ingotMithril",
+	  "emc": 4096
+	},
+	{
+	  "item": "OD|dustMithril",
+	  "emc": 4096
+	},
+	{
+	  "item": "OD|dustInvar",
+	  "emc": 512
+	},
+	{
+	  "item": "OD|dustSignalum",
+	  "emc": 384
+	},
+	{
+	  "item": "OD|dustLumium",
+	  "emc": 704
+	},
+	{
+	  "item": "OD|dustEnderium",
+	  "emc": 2528
+	},
+	{
+	  "item": "minecraft:nether_star|0",
+	  "emc": 147456
+	},
+    {
+      "item": "actuallyadditions:item_crystal|5",
+      "emc": 256
+    },
+    {
+      "item": "actuallyadditions:item_crystal|4",
+      "emc": 16384
+    },
+    {
+      "item": "actuallyadditions:item_crystal|3",
+      "emc": 128
+    },
+    {
+      "item": "actuallyadditions:item_crystal|2",
+      "emc": 8192
+    },
+    {
+      "item": "actuallyadditions:item_crystal|1",
+      "emc": 864
+    },
+    {
+      "item": "actuallyadditions:item_crystal|0",
+      "emc": 64
+    },
+    {
+      "item": "actuallyadditions:item_crystal_empowered|0",
+      "emc": 1161
+    },
+    {
+      "item": "actuallyadditions:item_crystal_empowered|1",
+      "emc": 3068
+    },
+    {
+      "item": "actuallyadditions:item_crystal_empowered|2",
+      "emc": 9304
+    },
+    {
+      "item": "actuallyadditions:item_crystal_empowered|3",
+      "emc": 1181
+    },
+    {
+      "item": "actuallyadditions:item_crystal_empowered|4",
+      "emc": 17477
+    },
+    {
+      "item": "actuallyadditions:item_crystal_empowered|5",
+      "emc": 1291
+    },
+	{
+      "item": "projecte:item.pe_philosophers_stone|0",
+      "emc": 50
+    },
+	{
+	  "item": "botania:blacklotus|1",
+	  "emc": 1032192
+	},
+	{
+	  "item": "projecte:condenser_mk2|0",
+	  "emc": 2211840
+	},
+	{
+	  "item": "projecte:transmutation_table|0",
+	  "emc": 6635520
+	},
+	{
+	  "item": "extendedcrafting:table_elite|0",
+	  "emc": 6635520
+	},
+	{
+	  "item": "minecraft:lava_bucket|0",
+	  "emc": 1664
+	},
+	{
+	  "item": "projecte:item.pe_gem_armor_1|0",
+	  "emc": 28536889
+	},
+	{
+	  "item": "projecte:item.pe_gem_armor_0|0",
+	  "emc": 26434432
+	},
+	{
+	  "item": "randomthings:ingredient|3",
+	  "emc": 3776
+	},
+	{
+	  "item": "minecraft:elytra|0",
+	  "emc": 147456
+	}
+  ]
+}

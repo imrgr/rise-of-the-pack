@@ -1,0 +1,292 @@
+[
+	{
+        "mode": "ADD",
+        "result": "extendedcrafting:table_advanced",
+        "catalyst": "minecraft:gold_block",
+        "energy": 10000,
+        "tier": 0,
+        "ingredients": [
+            "extendedcrafting:material,1,15",
+			"extendedcrafting:material,1,15",
+			"extendedcrafting:material,1,15",
+			"extendedcrafting:material,1,15",
+			"extendedcrafting:material,1,9",
+			"extendedcrafting:material,1,2",
+			"extendedcrafting:table_basic",
+			"extendedcrafting:table_basic"
+        ]
+    },
+	{
+        "mode": "ADD",
+        "result": "extendedcrafting:table_ultimate",
+        "catalyst": "minecraft:emerald_block",
+        "energy": 15000,
+        "tier": 2,
+        "ingredients": [
+            "extendedcrafting:material,1,17",
+			"extendedcrafting:material,1,17",
+			"extendedcrafting:material,1,17",
+			"extendedcrafting:material,1,17",
+			"extendedcrafting:material,1,11",
+			"extendedcrafting:material,1,2",
+			"extendedcrafting:table_elite",
+			"extendedcrafting:table_elite"
+        ]
+    },
+	{
+        "mode": "ADD",
+        "result": "projecte:transmutation_table",
+        "catalyst": "projecte:condenser_mk2",
+        "energy": 2000000,
+        "tier": 3,
+        "ingredients": [
+            "draconicevolution:chaos_shard,1,0",
+			"extendedcrafting:table_ultimate"
+        ]
+    },
+	{
+        "mode": "ADD",
+        "result": "projecte:item.pe_tome",
+        "catalyst": "projecte:item.pe_klein_star,1,5",
+        "energy": 100000,
+        "tier": 3,
+        "ingredients": [
+            "draconicevolution:chaos_shard,1,0",
+			"draconicevolution:chaos_shard,1,0",
+			"draconicevolution:chaos_shard,1,0",
+			"draconicevolution:chaos_shard,1,0",
+			"draconicevolution:chaos_shard,1,0",
+			"draconicevolution:chaotic_core",
+			"projecte:item.pe_transmutation_tablet",
+			"projecte:transmutation_table",
+			"projecte:matter_block,1,1"
+        ]
+    },
+	{
+        "mode": "ADD",
+        "result": "projecte:item.pe_swrg",
+        "catalyst": "projecte:item.pe_ring_iron_band",
+        "energy": 8000,
+        "tier": 1,
+        "ingredients": [
+            "minecraft:feather",
+			"minecraft:feather",
+			"minecraft:feather",
+			"minecraft:feather",
+			"projecte:matter_block,1,0"
+        ]
+    },
+	{
+        "mode": "ADD",
+        "result": "projecte:item.pe_time_watch",
+        "catalyst": "minecraft:clock",
+        "energy": 8000,
+        "tier": 1,
+        "ingredients": [
+            "minecraft:obsidian",
+			"minecraft:glowstone",
+			"minecraft:glowstone",
+			"minecraft:obsidian",
+			"projecte:matter_block,1,1"
+        ]
+    },
+	{
+        "mode": "ADD",
+        "result": "projecte:item.pe_gem_density",
+        "catalyst": "projecte:item.pe_ring_iron_band",
+        "energy": 5000,
+        "tier": 1,
+        "ingredients": [
+            "minecraft:obsidian",
+			"minecraft:diamond",
+			"minecraft:diamond",
+			"minecraft:diamond",
+			"minecraft:diamond",
+			"minecraft:diamond",
+			"minecraft:obsidian",
+			"projecte:matter_block,1,1"
+        ]
+    },
+	{
+        "mode": "ADD",
+        "result": "projecte:item.pe_harvest_god",
+        "catalyst": "projecte:item.pe_ring_iron_band",
+        "energy": 5000,
+        "tier": 1,
+        "ingredients": [
+            "ore:treeSapling",
+			"ore:treeSapling",
+			"ore:treeSapling",
+			"ore:treeSapling",
+			"minecraft:red_flower",
+			"minecraft:red_flower",
+			"projecte:matter_block,1,0"
+        ]
+    },
+	{
+		"mode": "ADD",
+		"result": "draconicevolution:chaos_shard,9,1",
+		"catalyst": "draconicevolution:chaos_shard,1,0",
+		"energy": 10000,
+		"tier": 2,
+		"ingredients":[
+			"thermalfoundation:material,1,295",
+			"thermalfoundation:material,1,295",
+			"thermalfoundation:material,1,295",
+			"thermalfoundation:material,1,295"
+		]
+	},
+	{
+		"mode": "ADD",
+		"result": "draconicevolution:chaos_shard,9,2",
+		"catalyst": "draconicevolution:chaos_shard,1,1",
+		"energy": 5000,
+		"tier": 1,
+		"ingredients":[
+			"thermalfoundation:material,1,290",
+			"thermalfoundation:material,1,290",
+			"thermalfoundation:material,1,290",
+			"thermalfoundation:material,1,290"
+		]
+	},
+	{
+		"mode": "ADD",
+		"result": "draconicevolution:chaos_shard,9,3",
+		"catalyst": "draconicevolution:chaos_shard,1,2",
+		"energy": 2500,
+		"tier": 0,
+		"ingredients":[
+			"thermalfoundation:material,1,24",
+			"thermalfoundation:material,1,24",
+			"thermalfoundation:material,1,24",
+			"thermalfoundation:material,1,24"
+		]
+	},
+	{
+		"mode": "ADD",
+		"result": "draconicevolution:draconic_block,4,0",
+		"catalyst": "draconicevolution:draconium_block,4,0",
+		"energy": 5000,
+		"tier": 1,
+		"ingredients":[
+			"draconicevolution:dragon_heart",
+			"draconicevolution:chaos_shard,1,3",
+			"draconicevolution:chaos_shard,1,3",
+			"draconicevolution:chaos_shard,1,3",
+			"draconicevolution:chaos_shard,1,3"
+		]
+	},
+	{
+		"mode": "ADD",
+		"result": "draconicevolution:draconic_block,3,0",
+		"catalyst": "draconicevolution:draconium_block,3,0",
+		"energy": 5000,
+		"tier": 1,
+		"ingredients":[
+			"draconicevolution:dragon_heart",
+			"draconicevolution:chaos_shard,1,3",
+			"draconicevolution:chaos_shard,1,3",
+			"draconicevolution:chaos_shard,1,3"
+		]
+	},
+	{
+		"mode": "ADD",
+		"result": "draconicevolution:draconic_block,2,0",
+		"catalyst": "draconicevolution:draconium_block,2,0",
+		"energy": 5000,
+		"tier": 1,
+		"ingredients":[
+			"draconicevolution:dragon_heart",
+			"draconicevolution:chaos_shard,1,3",
+			"draconicevolution:chaos_shard,1,3"
+		]
+	},
+	{
+		"mode": "ADD",
+		"result": "draconicevolution:draconic_block,1,0",
+		"catalyst": "draconicevolution:draconium_block,1,0",
+		"energy": 5000,
+		"tier": 1,
+		"ingredients":[
+			"draconicevolution:dragon_heart",
+			"draconicevolution:chaos_shard,1,3"
+		]
+	},
+	{
+		"mode": "ADD",
+		"result": "projecte:collector_mk3",
+		"catalyst": "projecte:item.pe_tome",
+		"energy": 100000000,
+		"tier": 3,
+		"ingredients":[
+			"minecraft:glowstone",
+			"minecraft:glowstone",
+			"minecraft:glowstone",
+			"minecraft:glowstone",
+			"projecte:matter_block,1,1"
+		]
+	},
+	{
+		"mode": "ADD",
+		"result": "projecte:relay_mk3",
+		"catalyst": "projecte:item.pe_tome",
+		"energy": 100000000,
+		"tier": 3,
+		"ingredients":[
+			"minecraft:obsidian",
+			"minecraft:obsidian",
+			"minecraft:obsidian",
+			"minecraft:obsidian",
+			"projecte:matter_block,1,1"
+		]
+	},
+	{
+		"mode": "REMOVE",
+		"result": "draconicevolution:draconic_block,4,0",
+		"catalyst": "draconicevolution:draconium_block,4,0",
+		"ingredients":[
+			"draconicevolution:dragon_heart",
+			"draconicevolution:draconic_core",
+			"draconicevolution:draconic_core",
+			"draconicevolution:draconic_core",
+			"draconicevolution:draconic_core",
+			"draconicevolution:draconic_core",
+			"draconicevolution:draconic_core"
+		]
+	},
+	{
+		"mode": "REMOVE",
+		"result": "draconicevolution:chaotic_core",
+		"catalyst": "draconicevolution:chaos_shard,1,0"
+	},
+    {
+        "mode": "REMOVE",
+        "result": "draconicevolution:awakened_core",
+        "catalyst": "minecraft:nether_star"
+    },
+	{
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_helm",
+        "catalyst": "draconicevolution:wyvern_helm"
+    },
+	{
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_chest",
+        "catalyst": "draconicevolution:wyvern_chest"
+    },
+	{
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_legs",
+        "catalyst": "draconicevolution:wyvern_legs"
+    },
+	{
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_boots",
+        "catalyst": "draconicevolution:wyvern_boots"
+    },
+	{
+        "mode": "REMOVE",
+        "result": "draconicevolution:draconic_staff_of_power",
+        "catalyst": "draconicevolution:draconic_pick"
+    }
+]
