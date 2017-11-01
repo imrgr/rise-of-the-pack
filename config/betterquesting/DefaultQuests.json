@@ -5,7 +5,7 @@
       "home_anchor_y": 0,
       "livesmax": 100,
       "home_anchor_x": 0.5,
-      "editmode": true,
+      "editmode": false,
       "hardcore": false,
       "home_image": "betterquesting:textures/gui/default_title.png",
       "home_offset_x": -128,
@@ -4633,7 +4633,7 @@
           "autoclaim": false,
           "ismain": false,
           "name": "Quantum Storage",
-          "desc": "As you may have noticed, there is no mod that adds a DSU(Deep Storage Unit) in this pack. Instead, there is something much better. There has been a recipe added for Storage Drawers\u0027 Creative Storage Upgrade. It\u0027s not cheap, but at least you\u0027ll be able to hang on to that beautiful array of drawers once it comes time for Deep Storage!\n\n§lNote:§0 You cannot remove a creative upgrade from a drawer once it has been used on that drawer.\n\n§lNote: §0If you want to move a drawer with a creative upgrade in it, be sure to use tape. If you break a drawer that contains a creative upgrade, without tape, you will lose the upgrade.\n\nYou have been warned!"
+          "desc": "As you may have noticed, there is no mod that adds a DSU(Deep Storage Unit) in this pack. Instead, there is something much better. There has been a recipe added for Storage Drawers\u0027 Creative Storage Upgrade. It\u0027s not cheap, but at least you\u0027ll be able to hang on to that beautiful array of drawers once it comes time for Deep Storage!\n\n§lNote:§0 You cannot remove a creative upgrade from a drawer once it has been used on that drawer.\n\n§lNote: §0If you want to move a drawer with a creative upgrade in it, be sure to use tape. If you break a drawer that contains a creative upgrade, without tape, you will lose the upgrade.\n\nYou have been warned!\n\n§lNote:§0 There has been a mod added that adds a DSU, but the rest of this message is still true. Just a heads up."
         }
       },
       "tasks": [
@@ -11616,6 +11616,2138 @@
         122
       ],
       "questID": 123
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:tree_fluid_extractor",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Dracula of the Trees",
+          "desc": "Here is where you can get started with Industrial Foregoing. The Tree Fluid Extractor is your most fundamental item within the mod, so start by placing it down in front of a log. It doesn\u0027t even need power to gather that delicious tree juice!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:tree_fluid_extractor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        8
+      ],
+      "questID": 124
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:latex_processing_unit",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Rubber, if you Dare",
+          "desc": "Rubber is what you\u0027ll use to make plastic, which will come in very handy on your way through Industrial Foregoing."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:latex_processing_unit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        124
+      ],
+      "questID": 125
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:plastic",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Plasticity",
+          "desc": "Plastic plastic plastic. It\u0027s used in basically every recipe in this mod."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:tinydryrubber",
+              "Count": 9,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:dryrubber",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:plastic",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 2
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        125
+      ],
+      "questID": 126
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "teslacorelib:machine_case",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The Industrial Case",
+          "desc": "This Machine Case is used for all of the more advanced Industrial Foregoing machines."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "teslacorelib:machine_case",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "industrialforegoing:book_manual",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        32
+      ],
+      "questID": 127
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:black_hole_unit",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The Black Hole Unit",
+          "desc": "It\u0027s for deep storage!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:black_hole_unit",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        127
+      ],
+      "questID": 128
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:black_hole_tank",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The Black Hole Tank",
+          "desc": "Deep storage of liquids!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:black_hole_tank",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        128
+      ],
+      "questID": 129
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:black_hole_controller",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Controller of Black Holes",
+          "desc": "This thing can hold 9 Black Hole Units! You can input and output from all 9 units using just one controller! It\u0027s pretty nifty if I do say so."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:black_hole_controller",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 75
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        129
+      ],
+      "questID": 130
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:resourceful_furnace",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "3x Furnace",
+          "desc": "This is a powered furnace that smelts 3 items at once. Neat."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:resourceful_furnace",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        127
+      ],
+      "questID": 131
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:enchantment_extractor",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Extractor of Enchantments",
+          "desc": "This will, for the cost of power, remove the enchantment from an enchanted item and place it onto an empty book. It\u0027ll come in handy if you have a lot of random enchanted armor laying around."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:enchantment_extractor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        127
+      ],
+      "questID": 132
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:mob_duplicator",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Powered Mob Spawner",
+          "desc": "This block is exactly what the title says it is. To use it, capture a mob in a Mob Imprisonment Tool, then put the tool into the Mob Duplicator. Give the duplicator power and liquid essence, and it will start to spawn duplicates of the mob that you captured. Simple right?\n\nIf you\u0027re wondering, liquid essence comes from either the Mob Crusher or the Resourceful Furnace. The Mob Crusher is the more effecient way for sure, though."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:mob_imprisonment_tool",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "industrialforegoing:mob_duplicator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        127
+      ],
+      "questID": 133
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:mob_relocator",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Crushing the Mobs",
+          "desc": "Give this machine power, and it will give you drops of the mobs it kills and liquid essence. It kills mobs in a 5x5 area in front of it."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:mob_relocator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "forge:bucketfilled",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FluidName:8": "essence",
+                "Amount:3": 1000
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 75
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        127
+      ],
+      "questID": 134
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:animal_stock_increaser",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "The New Ranch Hands",
+          "desc": "These machines all have to do with animals. The feeder will automatically feed animals, at the cost of power. The rancher can milk cows and shear sheep, at the cost of power. While powered, the Animal Sewage collects sewage from animals above it. The Sewage Composter creates fertilizer out of liquid sewage. It\u0027s a pretty gross concept, but the fertilizer comes in handy, and it\u0027s a crafting ingredient for a neat machine."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:animal_stock_increaser",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "industrialforegoing:animal_resource_harvester",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "industrialforegoing:animal_byproduct_recolector",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "industrialforegoing:sewage_composter_solidifier",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:fertilizer",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 75
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        },
+        {
+          "rewards": [
+            {
+              "id": "industrialforegoing:fertilizer",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 1
+        }
+      ],
+      "preRequisites": [
+        127
+      ],
+      "questID": 135
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:hydrator",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Hydration Station",
+          "desc": "If the Hydrator isn\u0027t given power, then it acts as a water source, and it will keep nearby farmland hydrated. If given power, it will increase crop growth speed in addition to keeping farmland hydrated. "
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:hydrator",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        127
+      ],
+      "questID": 136
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:pink_slime",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Slime that is Pink",
+          "desc": "Pink slime, the item, comes from pink slimes, the mobs. Pink slime mobs are created by placing liquid pink slime in the world, and after a few seconds, the liquid pink slime will turn into a pink slime mob."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:pink_slime",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        127
+      ],
+      "questID": 137
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:mob_slaughter_factory",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Mob Slaughter Factory",
+          "desc": "Pretty gruesome name, no? Well this is basically the same as the Mob Crusher, except it doesn\u0027t collect mob drops. When a mob is killed by the slaughter factory, it produces liquid meat and has a chance of producing liquid pink slime."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:mob_slaughter_factory",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "forge:bucketfilled",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FluidName:8": "if.pink_slime",
+                "Amount:3": 1000
+              }
+            },
+            {
+              "id": "forge:bucketfilled",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "FluidName:8": "meat",
+                "Amount:3": 1000
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        127
+      ],
+      "questID": 138
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:material_stonework_factory",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Stonework Factory",
+          "desc": "This machine is really cool. Check it out in the Industrial Foregoing manual. The author does a great job of explaining what it does."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:material_stonework_factory",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        127
+      ],
+      "questID": 139
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:crop_sower",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Green Thumbed Machines",
+          "desc": "These machines will help you tend your crops. The sower plants, the fertilizer fertilizes, and the gatherer harvests. All three use power to do what they do."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:crop_sower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "industrialforegoing:crop_enrich_material_injector",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "industrialforegoing:crop_recolector",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 75
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        127
+      ],
+      "questID": 140
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "industrialforegoing:ore_processor",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Processing Ores",
+          "desc": "With this handy little machine, you will be able to process all of the ores that you obtain through void mining. Giving the ore processor liquid essence allows it to process ores using fortune!"
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "industrialforegoing:ore_processor",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 75
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        93
+      ],
+      "questID": 141
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "botania:specialflower",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0,
+            "tag": {
+              "type:8": "dandelifeon"
+            }
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Automate the Game of Life",
+          "desc": "Can you figure out how to use all of these items to automate the game of life?\n\nIf you need a little help, check out this YouTube tutorial: §9https://www.youtube.com/watch?v\u003dIctPPVuHPkw§0.\nWhen it\u0027s automated the way it is in that video, it looks so cool. You should feel pretty good once you put this together.\n\nOnce you have it automated, go ahead and check the box in the second task. It doesn\u0027t have to be automated the same way it is in the video, just as long as you can gather mana automatically using the Dandelifeon."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "botania:specialflower",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:8": "dandelifeon"
+              }
+            },
+            {
+              "id": "botania:cellblock",
+              "Count": 512,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "botania:pool",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "botania:corporeaspark",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            },
+            {
+              "id": "botania:corporeaspark",
+              "Count": 3,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "botania:corporeafunnel",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "botania:hourglass",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "botania:floatingspecialflower",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "type:8": "rannuncarpus"
+              }
+            },
+            {
+              "id": "botania:spreader",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            },
+            {
+              "id": "minecraft:redstone",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:redstone_block",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:repeater",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:sticky_piston",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:chest",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:item_frame",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:sand",
+              "Count": 21,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        },
+        {
+          "taskID": "bq_standard:checkbox",
+          "index": 1
+        }
+      ],
+      "rewards": [
+        {
+          "rewards": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 100
+            },
+            {
+              "id": "extendedcrafting:singularity_ultimate",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:item",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        123
+      ],
+      "questID": 142
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "danknull:dank_null",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 0
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Dank Null, Dude",
+          "desc": "This is the continuation of the /dev/null from Open Blocks. You choose which items you want in it, then whenever you pick up those items, they go into the /Dank/Null. The items you select will start being voided once they reach the stack limit for the /Dank/Null you\u0027re using."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "danknull:dank_null",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0,
+              "tag": {
+                "selectedIndex:3": 0
+              }
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        0
+      ],
+      "questID": 143
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "danknull:dank_null",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 1
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Dank Mk. 2",
+          "desc": "This is the second iteration of the /Dank/Null. It has more slots and a higher stack limit per slot."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "danknull:dank_null",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 1
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        143
+      ],
+      "questID": 144
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "danknull:dank_null",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 2
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Danker",
+          "desc": "Tier 3 /Dank/Null."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "danknull:dank_null",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 2
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        144
+      ],
+      "questID": 145
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "danknull:dank_null",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 3
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Dankerer",
+          "desc": "Tier 4 /Dank/Null."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "danknull:dank_null",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 25
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        145
+      ],
+      "questID": 146
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "danknull:dank_null",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 4
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Dankest",
+          "desc": "Tier 5 /Dank/Null."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "danknull:dank_null",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 4
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 75
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 50
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        146
+      ],
+      "questID": 147
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "issilent": false,
+          "snd_complete": "minecraft:entity.player.levelup",
+          "lockedprogress": true,
+          "tasklogic": "AND",
+          "repeattime": -1,
+          "simultaneous": false,
+          "icon": {
+            "id": "danknull:dank_null",
+            "Count": 1,
+            "OreDict": "",
+            "Damage": 5
+          },
+          "globalshare": false,
+          "questlogic": "AND",
+          "partysinglereward": false,
+          "snd_update": "minecraft:entity.player.levelup",
+          "autoclaim": false,
+          "ismain": false,
+          "name": "Dankestest",
+          "desc": "Tier 6 /Dank/Null."
+        }
+      },
+      "tasks": [
+        {
+          "partialMatch": true,
+          "ignoreNBT": true,
+          "consume": false,
+          "groupDetect": false,
+          "autoConsume": false,
+          "requiredItems": [
+            {
+              "id": "danknull:dank_null",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 5
+            }
+          ],
+          "taskID": "bq_standard:retrieval",
+          "index": 0
+        }
+      ],
+      "rewards": [
+        {
+          "choices": [
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 75
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 100
+            },
+            {
+              "id": "bq_standard:loot_chest",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 75
+            }
+          ],
+          "rewardID": "bq_standard:choice",
+          "index": 0
+        }
+      ],
+      "preRequisites": [
+        147
+      ],
+      "questID": 148
     }
   ],
   "questLines": [
@@ -11661,7 +13793,7 @@
         },
         {
           "size": 24,
-          "x": -126,
+          "x": -150,
           "y": 12,
           "id": 36
         },
@@ -11697,9 +13829,21 @@
         },
         {
           "size": 24,
+          "x": -126,
+          "y": 96,
+          "id": 143
+        },
+        {
+          "size": 24,
           "x": -210,
           "y": 12,
           "id": 16
+        },
+        {
+          "size": 24,
+          "x": -126,
+          "y": 138,
+          "id": 144
         },
         {
           "size": 24,
@@ -11721,8 +13865,8 @@
         },
         {
           "size": 24,
-          "x": -126,
-          "y": 96,
+          "x": -102,
+          "y": 12,
           "id": 19
         },
         {
@@ -11825,6 +13969,12 @@
         },
         {
           "size": 24,
+          "x": 234,
+          "y": 60,
+          "id": 145
+        },
+        {
+          "size": 24,
           "x": 192,
           "y": 192,
           "id": 56
@@ -11834,6 +13984,24 @@
           "x": 192,
           "y": 258,
           "id": 57
+        },
+        {
+          "size": 24,
+          "x": 234,
+          "y": 126,
+          "id": 124
+        },
+        {
+          "size": 24,
+          "x": 234,
+          "y": 192,
+          "id": 125
+        },
+        {
+          "size": 24,
+          "x": 234,
+          "y": 258,
+          "id": 126
         }
       ],
       "lineID": 1,
@@ -11943,7 +14111,7 @@
         },
         {
           "size": 24,
-          "x": -96,
+          "x": 72,
           "y": 54,
           "id": 65
         },
@@ -11955,19 +14123,19 @@
         },
         {
           "size": 24,
-          "x": -96,
+          "x": 72,
           "y": 30,
           "id": 71
         },
         {
           "size": 24,
-          "x": -72,
+          "x": 96,
           "y": 36,
           "id": 72
         },
         {
           "size": 24,
-          "x": 228,
+          "x": 294,
           "y": 72,
           "id": 73
         },
@@ -11985,25 +14153,31 @@
         },
         {
           "size": 24,
-          "x": 204,
+          "x": 270,
           "y": 78,
           "id": 79
         },
         {
           "size": 24,
-          "x": 126,
+          "x": 216,
+          "y": 120,
+          "id": 146
+        },
+        {
+          "size": 24,
+          "x": 216,
           "y": 84,
           "id": 91
         },
         {
           "size": 36,
-          "x": 120,
+          "x": 210,
           "y": 0,
           "id": 31
         },
         {
           "size": 24,
-          "x": 216,
+          "x": 282,
           "y": 24,
           "id": 32
         },
@@ -12015,128 +14189,128 @@
         },
         {
           "size": 24,
-          "x": 36,
+          "x": 150,
           "y": 24,
           "id": 34
         },
         {
           "size": 24,
-          "x": -84,
+          "x": 84,
           "y": 6,
           "id": 35
         },
         {
           "size": 24,
-          "x": 24,
+          "x": 138,
           "y": 48,
           "id": 37
         },
         {
           "size": 24,
-          "x": 48,
+          "x": 162,
           "y": 54,
           "id": 38
         },
         {
           "size": 24,
-          "x": 24,
+          "x": 138,
           "y": 72,
           "id": 39
         },
         {
           "size": 24,
-          "x": 48,
+          "x": 162,
           "y": 78,
           "id": 40
         },
         {
           "size": 24,
-          "x": 228,
+          "x": 294,
           "y": 48,
           "id": 42
         },
         {
           "size": 24,
-          "x": 102,
-          "y": 210,
+          "x": 192,
+          "y": 228,
           "id": 45
         },
         {
           "size": 24,
-          "x": 54,
-          "y": 210,
+          "x": 144,
+          "y": 228,
           "id": 46
         },
         {
           "size": 24,
-          "x": 150,
-          "y": 210,
+          "x": 240,
+          "y": 228,
           "id": 47
         },
         {
           "size": 24,
-          "x": 198,
-          "y": 210,
+          "x": 288,
+          "y": 228,
           "id": 48
         },
         {
           "size": 24,
-          "x": 204,
+          "x": 270,
           "y": 54,
           "id": 50
         },
         {
           "size": 24,
-          "x": -72,
+          "x": 96,
           "y": 60,
           "id": 51
         },
         {
           "size": 24,
-          "x": 126,
+          "x": 216,
           "y": 36,
           "id": 54
         },
         {
           "size": 24,
-          "x": 138,
+          "x": 228,
           "y": 60,
           "id": 55
         },
         {
           "size": 24,
-          "x": 126,
-          "y": 174,
+          "x": 216,
+          "y": 192,
           "id": 58
         },
         {
           "size": 24,
-          "x": 78,
-          "y": 174,
+          "x": 168,
+          "y": 192,
           "id": 59
         },
         {
           "size": 24,
-          "x": 174,
-          "y": 174,
+          "x": 264,
+          "y": 192,
           "id": 60
         },
         {
           "size": 24,
-          "x": 114,
+          "x": 204,
           "y": 60,
           "id": 61
         },
         {
           "size": 24,
-          "x": 102,
-          "y": 138,
+          "x": 192,
+          "y": 156,
           "id": 62
         },
         {
           "size": 24,
-          "x": 150,
-          "y": 138,
+          "x": 240,
+          "y": 156,
           "id": 63
         }
       ],
@@ -12233,7 +14407,7 @@
         }
       ],
       "lineID": 4,
-      "order": 4
+      "order": 5
     },
     {
       "properties": {
@@ -12245,6 +14419,72 @@
         }
       },
       "quests": [
+        {
+          "size": 24,
+          "x": 228,
+          "y": 60,
+          "id": 141
+        },
+        {
+          "size": 24,
+          "x": -24,
+          "y": 30,
+          "id": 80
+        },
+        {
+          "size": 24,
+          "x": -54,
+          "y": 60,
+          "id": 81
+        },
+        {
+          "size": 24,
+          "x": -24,
+          "y": 90,
+          "id": 82
+        },
+        {
+          "size": 24,
+          "x": -54,
+          "y": 120,
+          "id": 83
+        },
+        {
+          "size": 24,
+          "x": -12,
+          "y": 168,
+          "id": 147
+        },
+        {
+          "size": 24,
+          "x": 60,
+          "y": 30,
+          "id": 90
+        },
+        {
+          "size": 24,
+          "x": 144,
+          "y": 30,
+          "id": 92
+        },
+        {
+          "size": 24,
+          "x": 228,
+          "y": 30,
+          "id": 93
+        },
+        {
+          "size": 24,
+          "x": 312,
+          "y": 30,
+          "id": 94
+        },
+        {
+          "size": 24,
+          "x": 174,
+          "y": 60,
+          "id": 95
+        },
         {
           "size": 24,
           "x": 258,
@@ -12328,64 +14568,10 @@
           "x": 324,
           "y": 186,
           "id": 109
-        },
-        {
-          "size": 24,
-          "x": -24,
-          "y": 30,
-          "id": 80
-        },
-        {
-          "size": 24,
-          "x": -54,
-          "y": 60,
-          "id": 81
-        },
-        {
-          "size": 24,
-          "x": -24,
-          "y": 90,
-          "id": 82
-        },
-        {
-          "size": 24,
-          "x": -54,
-          "y": 120,
-          "id": 83
-        },
-        {
-          "size": 24,
-          "x": 60,
-          "y": 30,
-          "id": 90
-        },
-        {
-          "size": 24,
-          "x": 144,
-          "y": 30,
-          "id": 92
-        },
-        {
-          "size": 24,
-          "x": 228,
-          "y": 30,
-          "id": 93
-        },
-        {
-          "size": 24,
-          "x": 312,
-          "y": 30,
-          "id": 94
-        },
-        {
-          "size": 24,
-          "x": 174,
-          "y": 60,
-          "id": 95
         }
       ],
       "lineID": 5,
-      "order": 5
+      "order": 6
     },
     {
       "properties": {
@@ -12408,6 +14594,12 @@
           "x": -54,
           "y": 222,
           "id": 116
+        },
+        {
+          "size": 24,
+          "x": -12,
+          "y": 138,
+          "id": 148
         },
         {
           "size": 24,
@@ -12459,7 +14651,125 @@
         }
       ],
       "lineID": 6,
-      "order": 6
+      "order": 7
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Going Fore Industrialism",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": ""
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": -12,
+          "y": 144,
+          "id": 128
+        },
+        {
+          "size": 24,
+          "x": -12,
+          "y": 186,
+          "id": 129
+        },
+        {
+          "size": 24,
+          "x": -12,
+          "y": 228,
+          "id": 130
+        },
+        {
+          "size": 24,
+          "x": 30,
+          "y": 204,
+          "id": 131
+        },
+        {
+          "size": 24,
+          "x": 72,
+          "y": 162,
+          "id": 132
+        },
+        {
+          "size": 24,
+          "x": 114,
+          "y": 120,
+          "id": 133
+        },
+        {
+          "size": 24,
+          "x": -54,
+          "y": 204,
+          "id": 134
+        },
+        {
+          "size": 24,
+          "x": -96,
+          "y": 162,
+          "id": 135
+        },
+        {
+          "size": 24,
+          "x": -138,
+          "y": 120,
+          "id": 136
+        },
+        {
+          "size": 24,
+          "x": 72,
+          "y": 204,
+          "id": 137
+        },
+        {
+          "size": 24,
+          "x": 114,
+          "y": 156,
+          "id": 138
+        },
+        {
+          "size": 24,
+          "x": -96,
+          "y": 204,
+          "id": 139
+        },
+        {
+          "size": 24,
+          "x": -138,
+          "y": 162,
+          "id": 140
+        },
+        {
+          "size": 18,
+          "x": -12,
+          "y": 102,
+          "id": 127
+        }
+      ],
+      "lineID": 7,
+      "order": 4
+    },
+    {
+      "properties": {
+        "betterquesting": {
+          "name": "Challenges",
+          "bg_image": "",
+          "bg_size": 256,
+          "desc": "This will be an ongoing quest line. As I think of more challenges, I will add them to this."
+        }
+      },
+      "quests": [
+        {
+          "size": 24,
+          "x": -156,
+          "y": 78,
+          "id": 142
+        }
+      ],
+      "lineID": 8,
+      "order": 8
     }
   ],
   "format": "1.0.0"

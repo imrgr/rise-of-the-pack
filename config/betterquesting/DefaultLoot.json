@@ -4,18 +4,18 @@
       "name": "Rewards",
       "weight": 2,
       "rewards": [
-	    {
-		  "weight": 1,
-		  "items": [
-			{
-			  "id": "bibliocraft:fancysign",
-			  "Count": 4,
-			  "OreDict": "",
-			  "Damage": 0
-			}
-		  ]
-		},
-		{
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bibliocraft:fancysign",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
           "weight": 1,
           "items": [
             {
@@ -26,7 +26,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -35,7 +35,7 @@
               "OreDict": "",
               "Damage": 0
             },
-			{
+            {
               "id": "embers:fluid_gauge",
               "Count": 4,
               "OreDict": "",
@@ -43,18 +43,18 @@
             }
           ]
         },
-		{
-		  "weight": 1,
-		  "items": [
-			{
-			  "id": "elevatorid:elevator_white",
-			  "Count": 2,
-			  "OreDict": "",
-			  "Damage": 0
-			}
-		  ]
-		},
-		{
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "elevatorid:elevator_white",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
           "weight": 1,
           "items": [
             {
@@ -65,72 +65,72 @@
             }
           ]
         },
-		{
-		  "weight": 1,
-		  "items": [
-			{
-			  "id": "minecraft:cactus",
-			  "Count": 1,
-			  "OreDict": "",
-			  "Damage": 0
-			}
-		  ]
-		},
-		{
-		  "weight": 1,
-		  "items": [
-			{
-			  "id": "minecraft:cooked_beef",
-			  "Count": 12,
-			  "OreDict": "",
-			  "Damage": 0
-			}
-		  ]
-		},
-		{
-		  "weight": 1,
-		  "items": [
-			{
-			  "id": "bibliocraft:clock",
-			  "Count": 1,
-			  "OreDict": "",
-			  "Damage": 0
-			}
-		  ]
-		},
-		{
-		  "weight": 1,
-		  "items": [
-			{
-			  "id": "minecraft:slime",
-			  "Count": 1,
-			  "OreDict": "",
-			  "Damage": 0
-			}
-		  ]
-		},
-		{
-		  "weight": 1,
-		  "items": [
-			{
-			  "id": "minecraft:sea_lantern",
-			  "Count": 2,
-			  "OreDict": "",
-			  "Damage": 0
-			}
-		  ]
-		},
-		{
-		  "weight": 1,
-		  "items": [
-			{
-			  "id": "extrautils2:ingredients",
-			  "Count": 4,
-			  "OreDict": "",
-			  "Damage": 3
-			}
-		  ]
-		},
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "minecraft:cactus",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "minecraft:cooked_beef",
+              "Count": 12,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "bibliocraft:clock",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "minecraft:slime",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "minecraft:sea_lantern",
+              "Count": 2,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "extrautils2:ingredients",
+              "Count": 4,
+              "OreDict": "",
+              "Damage": 3
+            }
+          ]
+        },
         {
           "weight": 1,
           "items": [
@@ -166,7 +166,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -182,78 +182,79 @@
               "OreDict": "",
               "Damage": 1
             },
-			{
+            {
               "id": "minecraft:wool",
               "Count": 8,
               "OreDict": "",
               "Damage": 2
             },
-			{
+            {
               "id": "minecraft:wool",
               "Count": 8,
               "OreDict": "",
               "Damage": 3
             },
-			{
+            {
               "id": "minecraft:wool",
               "Count": 8,
               "OreDict": "",
               "Damage": 4
             },
-			{
+            {
               "id": "minecraft:wool",
               "Count": 8,
               "OreDict": "",
               "Damage": 5
             },
-			{
+            {
               "id": "minecraft:wool",
               "Count": 8,
               "OreDict": "",
               "Damage": 6
-            },{
+            },
+            {
               "id": "minecraft:wool",
               "Count": 8,
               "OreDict": "",
               "Damage": 7
             },
-			{
+            {
               "id": "minecraft:wool",
               "Count": 8,
               "OreDict": "",
               "Damage": 8
             },
-			{
+            {
               "id": "minecraft:wool",
               "Count": 8,
               "OreDict": "",
               "Damage": 9
             },
-			{
+            {
               "id": "minecraft:wool",
               "Count": 8,
               "OreDict": "",
               "Damage": 10
             },
-			{
+            {
               "id": "minecraft:wool",
               "Count": 8,
               "OreDict": "",
               "Damage": 11
             },
-			{
+            {
               "id": "minecraft:wool",
               "Count": 8,
               "OreDict": "",
               "Damage": 12
             },
-			{
+            {
               "id": "minecraft:wool",
               "Count": 8,
               "OreDict": "",
               "Damage": 13
             },
-			{
+            {
               "id": "minecraft:wool",
               "Count": 8,
               "OreDict": "",
@@ -278,8 +279,8 @@
             }
           ]
         },
-		{
-		  "weight": 1,
+        {
+          "weight": 1,
           "items": [
             {
               "id": "extrautils2:fakecopy",
@@ -288,7 +289,7 @@
               "Damage": 5
             }
           ]
-		},
+        },
         {
           "weight": 1,
           "items": [
@@ -316,14 +317,14 @@
           "weight": 1,
           "items": [
             {
-              "id": "botania:blackLotus",
+              "id": "botania:blacklotus",
               "Count": 18,
               "OreDict": "",
               "Damage": 0
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -334,7 +335,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -343,13 +344,13 @@
               "OreDict": "",
               "Damage": 0
             },
-			{
+            {
               "id": "immersiveengineering:metal_decoration2",
               "Count": 2,
               "OreDict": "",
               "Damage": 2
             },
-			{
+            {
               "id": "immersiveengineering:wooden_device1",
               "Count": 2,
               "OreDict": "",
@@ -357,7 +358,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -368,7 +369,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -379,7 +380,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -390,7 +391,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -401,7 +402,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -503,14 +504,14 @@
           "weight": 1,
           "items": [
             {
-              "id": "mekanism:Ingot",
+              "id": "mekanism:ingot",
               "Count": 16,
               "OreDict": "",
               "Damage": 3
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -521,7 +522,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -532,7 +533,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -543,7 +544,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -552,13 +553,13 @@
               "OreDict": "",
               "Damage": 0
             },
-			{
+            {
               "id": "mekanism:energyupgrade",
               "Count": 3,
               "OreDict": "",
               "Damage": 0
             },
-			{
+            {
               "id": "mekanism:anchorupgrade",
               "Count": 1,
               "OreDict": "",
@@ -566,10 +567,10 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
-		    {
+            {
               "id": "appliedenergistics2:part",
               "Count": 4,
               "OreDict": "",
@@ -581,7 +582,7 @@
               "OreDict": "",
               "Damage": 76
             },
-			{
+            {
               "id": "appliedenergistics2:part",
               "Count": 16,
               "OreDict": "",
@@ -589,7 +590,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -600,7 +601,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -609,7 +610,7 @@
               "OreDict": "",
               "Damage": 0
             },
-			{
+            {
               "id": "minecraft:redstone_ore",
               "Count": 16,
               "OreDict": "",
@@ -621,7 +622,7 @@
           "weight": 1,
           "items": [
             {
-              "id": "botania:brewFlask",
+              "id": "botania:brewflask",
               "Count": 1,
               "OreDict": "",
               "Damage": 0,
@@ -635,7 +636,7 @@
           "weight": 1,
           "items": [
             {
-              "id": "botania:brewFlask",
+              "id": "botania:brewflask",
               "Count": 1,
               "OreDict": "",
               "Damage": 0,
@@ -654,24 +655,24 @@
               "OreDict": "",
               "Damage": 0
             },
-			{
-			  "id": "appliedenergistics2:material",
-			  "Count": 8,
-			  "OreDict": "",
-			  "Damage": 10
-			},
+            {
+              "id": "appliedenergistics2:material",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 10
+            },
             {
               "id": "appliedenergistics2:material",
               "Count": 16,
               "OreDict": "",
               "Damage": 7
             },
-			{
-			  "id": "appliedenergistics2:material",
-			  "Count": 8,
-			  "OreDict": "",
-			  "Damage": 12
-			}
+            {
+              "id": "appliedenergistics2:material",
+              "Count": 8,
+              "OreDict": "",
+              "Damage": 12
+            }
           ]
         },
         {
@@ -713,7 +714,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -722,7 +723,7 @@
               "OreDict": "",
               "Damage": 0
             },
-			{
+            {
               "id": "rftools:shield_template_block",
               "Count": 16,
               "OreDict": "",
@@ -730,7 +731,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -741,7 +742,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -750,13 +751,13 @@
               "OreDict": "",
               "Damage": 3
             },
-			{
+            {
               "id": "immersiveengineering:metal_decoration0",
               "Count": 4,
               "OreDict": "",
               "Damage": 4
             },
-			{
+            {
               "id": "immersiveengineering:metal_decoration0",
               "Count": 2,
               "OreDict": "",
@@ -764,18 +765,18 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
-              "id": "botania:blackLotus",
+              "id": "botania:blacklotus",
               "Count": 10,
               "OreDict": "",
               "Damage": 1
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -784,7 +785,7 @@
               "OreDict": "",
               "Damage": 2
             },
-			{
+            {
               "id": "actuallyadditions:item_crystal_empowered",
               "Count": 3,
               "OreDict": "",
@@ -792,7 +793,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -801,7 +802,7 @@
               "OreDict": "",
               "Damage": 0
             },
-			{
+            {
               "id": "appliedenergistics2:crafting_accelerator",
               "Count": 3,
               "OreDict": "",
@@ -809,39 +810,39 @@
             }
           ]
         },
-		{
-		  "weight": 1,
-		  "items": [
-			{
-			  "id": "minecraft:lime_shulker_box",
-			  "Count": 1,
-			  "OreDict": "",
-			  "Damage": 0
-			}
-		  ]
-		},
-		{
-		  "weight": 1,
-		  "items": [
-		    {
-		      "id": "minecraft:enchanting_table",
-			  "count": 1,
-			  "OreDict": "",
-			  "Damage": 0
-			}  
-		  ]
-		},
-		{
-		  "weight": 1,
-		  "items": [
-		    {
-		      "id": "minecraft:diamond_block",
-			  "count": 2,
-			  "OreDict": "",
-			  "Damage": 0
-			}  
-		  ]
-		},
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "minecraft:lime_shulker_box",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "minecraft:enchanting_table",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "minecraft:diamond_block",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
         {
           "weight": 1,
           "items": [
@@ -865,7 +866,7 @@
           "weight": 1,
           "items": [
             {
-              "id": "botania:brewFlask",
+              "id": "botania:brewflask",
               "Count": 1,
               "OreDict": "",
               "Damage": 0,
@@ -907,14 +908,18 @@
           "weight": 1,
           "items": [
             {
-              "id": "storagedrawers:upgradeStorage",
+              "id": "betterquesting:placeholder",
               "Count": 3,
               "OreDict": "",
-              "Damage": 3
+              "Damage": 3,
+              "tag": {
+                "orig_meta:3": 3,
+                "orig_id:8": "storagedrawers:upgradeStorage"
+              }
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -925,7 +930,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -936,18 +941,18 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
-              "id": "mekanism:OtherDust",
+              "id": "mekanism:otherdust",
               "Count": 2,
               "OreDict": "",
               "Damage": 4
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -961,7 +966,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -972,7 +977,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -983,7 +988,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -992,7 +997,7 @@
               "OreDict": "",
               "Damage": 1
             },
-			{
+            {
               "id": "minecraft:soul_sand",
               "Count": 8,
               "OreDict": "",
@@ -1000,7 +1005,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -1009,19 +1014,19 @@
               "OreDict": "",
               "Damage": 0
             },
-			{
+            {
               "id": "botania:elementiumchest",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
-			{
+            {
               "id": "botania:elementiumlegs",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
-			{
+            {
               "id": "botania:elementiumboots",
               "Count": 1,
               "OreDict": "",
@@ -1029,7 +1034,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -1079,7 +1084,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -1090,7 +1095,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -1101,7 +1106,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -1112,7 +1117,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
@@ -1120,35 +1125,35 @@
               "Count": 1,
               "OreDict": "",
               "Damage": 0,
-			  "tag": {
-                "Energy:1": 250000
+              "tag": {
+                "Energy:1": -112
               }
             },
-			{
+            {
               "id": "actuallyadditions:item_drill_upgrade_fortune",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
-			{
+            {
               "id": "actuallyadditions:item_drill_upgrade_fortune_ii",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
-			{
+            {
               "id": "actuallyadditions:item_drill_upgrade_speed",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
-			{
+            {
               "id": "actuallyadditions:item_drill_upgrade_speed_ii",
               "Count": 1,
               "OreDict": "",
               "Damage": 0
             },
-			{
+            {
               "id": "actuallyadditions:item_drill_upgrade_speed_iii",
               "Count": 1,
               "OreDict": "",
@@ -1156,23 +1161,23 @@
             }
           ]
         },
-		{
-		  "weight": 1,
-		  "items": [
-			{
-			  "id": "minecraft:elytra",
-			  "Count": 1,
-			  "OreDict": "",
-			  "Damage": 0
-			},
-			{
-			  "id": "minecraft:fireworks",
-			  "Count": 10,
-			  "OreDict": "",
-			  "Damage": 0
-			}
-		  ]
-		},
+        {
+          "weight": 1,
+          "items": [
+            {
+              "id": "minecraft:elytra",
+              "Count": 1,
+              "OreDict": "",
+              "Damage": 0
+            },
+            {
+              "id": "minecraft:fireworks",
+              "Count": 10,
+              "OreDict": "",
+              "Damage": 0
+            }
+          ]
+        },
         {
           "weight": 1,
           "items": [
@@ -1195,7 +1200,7 @@
             }
           ]
         },
-		{
+        {
           "weight": 1,
           "items": [
             {
